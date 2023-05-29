@@ -1,0 +1,26 @@
+/** @format */
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+/* root element */
+.root {
+  display: flex;
+  background-color: black;
+  height: 100vh;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  cursor: url("circle.png"), auto;
+}
+/* cursor - outer circle */
+.cursor {
+  position: fixed;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: width 2s, height 2s;
+}
